@@ -22,7 +22,7 @@ for (var guy in guys)
 
 	var keys = Object.keys(guys);
 	if (guy != keys[keys.length - 1])
-		marquee.innerHTML += ' - ';
+		marquee.innerHTML += ' ~ ';
 }
 
 var center = document.getElementById("center");
